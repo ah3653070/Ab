@@ -10,7 +10,7 @@ from config import Config
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 ABS="👥 SUPPORT"
-APPER="shamilhabeeb"
+APPER="Haseeb_TG"
 OWNER="Owner"
 GITCLONE="t.me/Royalbotz"
 B2="telegram.dog/tgbotschat"
@@ -67,7 +67,7 @@ def a(client, message):
             #     m.edit("Exceeded 30mins cap")
             #     return
 
-            performer = f"[SmL\MwK 🇮🇳]" 
+            performer = f"[ganah bot]" 
             thumb_name = f'thumb{message.message_id}.jpg'
             thumb = requests.get(thumbnail, allow_redirects=True)
             open(thumb_name, 'wb').write(thumb.content)
